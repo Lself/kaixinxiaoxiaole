@@ -5,7 +5,7 @@ import End from "@/pages/End";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/kaixinxiaoxiaole">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game" element={<Game />} />
